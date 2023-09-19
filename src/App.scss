@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: #f5fcff;
+}
+
+.outlet{
+    height: 92vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 80vw;
+    margin: 2rem 2rem;
+    z-index: 1;
+}
+
+.tickets{
+    display: flex;
+    gap: 2rem ;
+    justify-content: center;
+    margin: 4rem 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.btn {
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.btn:hover {
+
+    background-color: white;
+}
+
+
+.projet-modal {
+      // à droite
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+    // le contenu de votre modal 
+    div {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: white;
+      z-index: 11;
+      cursor: pointer;
+      &:hover {
+        background-color: #f7f7f7;
+      }
+      p {
+        margin-left: 10px;
+        font-family: sans-serif;
+      }
+    }
+  }

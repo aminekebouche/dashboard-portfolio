@@ -1,0 +1,35 @@
+.projet {
+    .container{
+       gap:4rem;
+
+        .projet-ticket{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            background: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            width: 200px;
+            height: 100px;
+            padding: 1rem;
+
+
+            h1{
+                font-family: sans-serif;
+                color: #0C7CFF;
+                text-align: center;
+                margin: 0;
+            }
+
+            p {
+                color: #4C4C4C;
+                font-size: 18px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+
+
+        }
+    }
+}

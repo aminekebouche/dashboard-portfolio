@@ -1,0 +1,112 @@
+.login {
+    background: linear-gradient(#1C1E53, #3F4BA0, #FFFFFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      height: 70%;
+      width: 400px;
+      border-radius: 12px;
+      background-color: #fff;
+      position: relative;
+  
+      
+  
+      
+  
+      .inputs {
+          margin-bottom: 2rem;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          border-bottom: 1px solid rgb(192, 192, 192);
+          padding-bottom:1rem ;
+          width: 70%;
+
+
+          & > svg {
+            font-size: 1rem;
+            color: rgb(192, 192, 192);
+            margin-right: 0.5rem;
+          }
+
+
+          input{
+            width: 60%;
+            border: 0;
+            margin-bottom: 0;
+
+            &:focus {
+                outline: none;
+                border-color: #1C1E53;
+              }
+
+          }
+
+        }
+  
+        
+  
+        h1 {
+          color: #777676;
+          text-align: center;
+          margin-bottom: 6rem;
+          margin-top: 4rem;
+
+        }
+
+
+        button{
+            padding: 1rem 7rem;
+            border-radius: 15px;
+            border: 0;
+            color: #FFFFFF;
+            font-size: large;
+            font-weight: bolder;
+            background: rgb(74, 74, 230);
+            &:hover{
+                background: #1C1E53;
+            }
+        }
+        .message {
+          padding: 1rem 3rem;
+          
+          border-radius: 5px;
+          margin: 20px 0;
+
+        }
+
+        .error {
+          border: 1px solid #D8000C;  /* Rouge */
+          background-color: #FFBABA;  /* Rouge clair */
+          color: #D8000C;  /* Rouge */
+        }
+        
+        .success {
+          border: 1px solid #4CAF50;  /* Vert */
+          background-color: #DFF2BF;  /* Vert clair */
+          color: #4CAF50;  /* Vert */
+        }
+
+        section{
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            margin-bottom: 2rem;
+
+            h6, h5{
+                color: #777676;
+                margin: 0;
+            }
+        }
+      
+    }
+  }
+  
